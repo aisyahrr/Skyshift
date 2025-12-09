@@ -6,16 +6,16 @@ import malam from "./assets/malam.png"
 function App() {
   return (
     <>
-      <div className="py-3 px-20 space-y-3">
+      <div className="py-3 px-1 md:px-20 space-y-3">
         <Navbar/>
-      <div className="max-w-5xl mx-auto px-4 py-10 text-white">
+      <div className="max-w-5xl mx-auto px-4 py-10 text-white mt-5">
         <div className="space-y-4">
-          <div className="grid gap-4 md:grid-cols-2">
+          <div className="grid gap-4 grid-cols-1 md:grid-cols-2">
             <div className="relative group overflow-hidden bg-[#050816]/50 border border-slate-700 rounded-2xl p-4 ">
               <img
                 src={pagi}
                 alt="Scene pagi"
-                className="w-full h-[300px] object-cover rounded-xl transition-transform duration-500 group-hover:scale-105"
+                className="w-full h-[200px] md:h-[300px] object-cover rounded-xl transition-transform duration-500 group-hover:scale-105"
               />
               <div className="absolute inset-0 flex items-center justify-center rounded-2xl bg-black/60 text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 Morning Breeze
@@ -25,19 +25,19 @@ function App() {
               <img
                 src={sore}
                 alt="Scene sore"
-                className="w-full h-[300px] object-cover rounded-xl transition-transform duration-500 group-hover:scale-105"
+                className="w-full h-[200px] md:h-[300px] object-cover rounded-xl transition-transform duration-500 group-hover:scale-105"
               />
               <div className="absolute inset-0 flex items-center justify-center rounded-2xl bg-black/60 text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 Golden Hour
               </div>
             </div>
           </div>
-          <div className="grid gap-4 md:grid-cols-2">
+          <div className="grid gap-4 grid-cols-1 md:grid-cols-2">
             <div className="relative group overflow-hidden bg-[#050816]/50 border border-slate-700 rounded-2xl p-4">
               <img
                 src={malam}
                 alt="Scene malam"
-                className="w-full h-[300px] object-cover rounded-xl transition-transform duration-500 group-hover:scale-105"
+                className="w-full h-[200px] md:h-[300px] object-cover rounded-xl transition-transform duration-500 group-hover:scale-105"
               />
               <div className="absolute inset-0 flex items-center justify-center rounded-2xl bg-black/60 text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 Midnight Chill
